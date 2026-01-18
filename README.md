@@ -82,16 +82,8 @@ Upon pressing the submit button, the system checks whether all digits match the 
 - Real-time OTP generation and checking
 - Demonstrates practical use of LFSR-based randomness
 
-## Limitations
-
-- LFSR-generated sequences can repeat due to deterministic behavior
-- No time-based OTP expiration
-- OTP length fixed at 4 digits
-- Manual input process is slower compared to automated systems
-
 ## Future Improvements
 
-- [ ] Add timer-based automatic OTP refresh
 - [ ] Use seed-based initialization for improved randomness
 - [ ] Expand OTP length for stronger security
 - [ ] Implement lockout mechanisms after repeated failures
@@ -111,7 +103,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-[Your Name]
+[Tanmay Mevada](https://tanmaymevada.vercel.app/)
 
 ## Acknowledgments
 
